@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Website Title Extension",
+  "version": "1.0",
+  "description": "Shows and copies the current website title",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "96": "images/icon96.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "96": "images/icon96.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
